@@ -5,7 +5,7 @@
 // licence:     MIT
 // author:      mars13.fr
 
-class PublicTest
+class PublicAjax
 {
     // TRAITS
     use TraitOne;

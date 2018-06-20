@@ -39,9 +39,9 @@ app.vue = new Vue({
     message: 'Hello Vue !'
   },
   created () {
-      app.ajax({ classForm: "Test", methodForm: "message" }, function(json){
-        if (json['Test@message'])
-            app.vue.message = json['Test@message'];
+      app.ajax({ classForm: "Ajax", methodForm: "message" }, function(json){
+        if (json['Ajax@message'])
+            app.vue.message = json['Ajax@message'];
       });
   }
 })    
