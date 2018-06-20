@@ -17,7 +17,7 @@ class MyTheme
     // constructor
     function __construct ()
     {
-        echo "(MyTheme)";        
+        // echo "(MyTheme)";        
     }
     
     //@end
